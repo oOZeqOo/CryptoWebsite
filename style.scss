@@ -1,0 +1,28 @@
+@import "components/_color.scss";
+@import "components/_layout.scss";
+@import "components/_font.scss";
+@import "components/_section.scss";
+@import "components/_footer.scss";
+@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
+body {
+    background-color: #{$backgroundColor} !important;
+    color: #{$textColor} !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+li a {
+    transition: 0.3s;
+    border-radius: 30px;
+    padding-right: 10px;
+    &:hover {
+        background-color: #{$transitionColor} !important;
+    }
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}

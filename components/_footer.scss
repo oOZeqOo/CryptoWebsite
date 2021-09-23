@@ -1,0 +1,21 @@
+footer {
+    background-color: #{$footerColor};
+}
+
+.footer-flex-container {
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        .footer-title {
+            font-size: larger;
+        }
+        .footer-content {
+            font-size: larger;
+        }
+    }
+}

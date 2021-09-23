@@ -1,0 +1,57 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__main {
+    /* Take the remaining height */
+    flex-grow: 1;
+    /* Layout the left sidebar, main content and right sidebar */
+    display: flex;
+    flex-direction: row;
+    padding-top: 20vh;
+}
+
+.container__left {
+    width: 10%;
+}
+
+.container__middle {
+    /* Take the remaining width */
+    flex-grow: 1;
+    height: 1000px;
+}
+
+.container__right {
+    width: 10%;
+}
+
+.navbar {
+    height: 75px;
+    background-color: #{$navbarColor} !important;
+}
+
+.container-fluid,
+.nav {
+    height: 100%;
+    vertical-align: middle !important;
+    justify-content: center !important;
+}
+
+ul {
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-flex-container {}

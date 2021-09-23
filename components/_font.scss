@@ -1,0 +1,9 @@
+$brandFontSize: 30px;
+$textFontSize: 25px;
+.navbar-brand {
+    font-size: $brandFontSize !important;
+}
+
+.navbar-right {
+    font-size: $textFontSize !important;
+}
